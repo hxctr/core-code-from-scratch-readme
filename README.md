@@ -23,7 +23,7 @@
 ### 2. Hot N Cold 🤒 🧊 🔥
 **Steps**
 1. Ask the user if he wants to convert Celsius or Fahrenheit and respective temperature.
-2. If the user selects celsius, then use the next formula to convert to fahrenheit: F = (C*9/5)
-2.1 Show the final temperature in F units
-3. If the user selects Fahrenheit, then convert it to celsius by using the next formula: C = (F-32)*5/9
-3.1 Show the final temperature in C units
+2. If the user selects celsius, then use the next formula to convert to fahrenheit: F = (C*9/5).
+2.1 Show the final temperature in F units.
+3. If the user selects Fahrenheit, then convert it to celsius by using the next formula: C = (F-32)*5/9.
+3.1 Show the final temperature in C units.
