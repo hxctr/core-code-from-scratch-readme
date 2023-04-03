@@ -54,9 +54,16 @@
 ![2023-04-02_22-57](https://user-images.githubusercontent.com/72572887/229415225-ae48864b-1c57-479d-9307-324ac5bf1333.png)
 
 
-### Date of birth 👧
+### 2. Date of birth 👧
 1. Ask the user to enter their date of birth with the next way DD-MM-YYYY.
 2. Separate by day, month, and year.
 3. Start to calculate the current date.
 4. Substract the user's birth year from the current year.
 5. Show the person's age.
+
+### 3. Treasures 👑
+Chest A -> This chest has a treasure -> false.<br>
+Chest B -> All the chests have treasures -> true.<br>
+Chest C -> Just one of these chests has a treasure -> false.
+
+Answer: chest A and chest C have the treasure.
