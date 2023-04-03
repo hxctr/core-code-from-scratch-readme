@@ -43,3 +43,12 @@
 4.1 Ask the user for the radius.<br>
 4.2 Use and replace in the next formula: V = (4/3) * pi * r^3.<br>
 4.3 Show the volume of the sphere
+
+## Week challenges (Thursday)
+### 1. Numbers 📊
+1. Ask the user to enter a number.
+2. Check if the number es divided by 2.
+3. If the number is divided by 2, then show in console "Number is even".
+4. If not, then show the next message "Number is odd"
+
+![2023-04-02_22-57](https://user-images.githubusercontent.com/72572887/229415225-ae48864b-1c57-479d-9307-324ac5bf1333.png)
