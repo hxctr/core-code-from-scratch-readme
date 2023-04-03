@@ -27,3 +27,19 @@
     2.1. Show the final temperature in F units.
 3. If the user selects Fahrenheit, then convert it to celsius by using the next formula: C = (F-32)*5/9.<br>
     3.1. Show the final temperature in C units.
+
+### 3. Geometry 📐
+
+1. Ask the user the shape he wants to calculate the volume.
+2. If the shape is "pyramid", do<br>
+2.1 Ask for the length, width, and height of the pyramid.<br>
+2.2 Use and replace values in the next formula: V = (length * width * height) / 3.<br>
+2.3 Show the volume of the pyramid.
+3. If the shape is "cube", do <br>
+3.1 Ask for the length.<br>
+3.2 Use and replace values in the next formula: V = length * length * length.<br>
+3.3 Show the volume of cube.
+4. If the shape is "sphere", do<br>
+4.1 Ask the user for the radius.<br>
+4.2 Use and replace in the next formula: V = (4/3) * pi * r^3.<br>
+4.3 Show the volume of the sphere
