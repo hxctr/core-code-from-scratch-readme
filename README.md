@@ -79,3 +79,11 @@ Answer: chest A and chest C have the treasure.
 
 Therefore, only Bob is telling the truth and just one person studied math yesterday.
 
+### 2. Cereal vrs Milk
+1. Get a bowl.
+2. Pour the milk into the bowl.
+3. Add some sugar.
+4. Pour cereal into the bowl.
+5. Enjoy.
+
+![image](https://user-images.githubusercontent.com/72572887/232366819-86436772-41c6-4ee6-8edb-8a0d2d3cebd0.png)
