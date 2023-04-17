@@ -87,3 +87,8 @@ Therefore, only Bob is telling the truth and just one person studied math yester
 5. Enjoy.
 
 ![image](https://user-images.githubusercontent.com/72572887/232366819-86436772-41c6-4ee6-8edb-8a0d2d3cebd0.png)
+
+## Week challenges (Wednesday)
+### 1. Install PSeInt
+![image](https://user-images.githubusercontent.com/72572887/232367553-518fc3d3-da33-4dde-bdc5-f856620b7844.png)
+
