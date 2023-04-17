@@ -88,7 +88,7 @@ Therefore, only Bob is telling the truth and just one person studied math yester
 
 ![image](https://user-images.githubusercontent.com/72572887/232366819-86436772-41c6-4ee6-8edb-8a0d2d3cebd0.png)
 
-## Week challenges (Wednesday)
+## Week challenges (Tuesday)
 ### 1. Install PSeInt
 ![image](https://user-images.githubusercontent.com/72572887/232367553-518fc3d3-da33-4dde-bdc5-f856620b7844.png)
 ### 2. Print my name
@@ -107,6 +107,22 @@ FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/72572887/232368852-cf29ffaa-b9f7-4987-bd1d-cca6f1342e44.png)
 
+## Week challenges (Wednesday)
 ### 1. Algorithm game
 ![image](https://user-images.githubusercontent.com/72572887/232374332-e09831bb-5f00-4bc8-816c-f86e8bdb3aba.png)
+
+### 2. Mod
+```python
+Algoritmo EvenOrOdd
+	Escribir "Write a number: "
+	Leer number
+	Si number mod 2 = 0 Entonces
+		Escribir "0"
+	SiNo
+		Escribir "1"
+	FinSi
+FinAlgoritmo
+```
+![image](https://user-images.githubusercontent.com/72572887/232374809-51fe36cf-f1f2-44e1-a927-91d246e51d2f.png)
+
 
