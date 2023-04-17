@@ -197,3 +197,18 @@ Algoritmo boolean
 FinAlgoritmo
 
 ```
+
+### 3. Identify odd and even numbers
+```
+Algoritmo EvenOrOdd
+	Escribir "Write a number: "
+	Leer number
+	Si number mod 2 = 0 Entonces
+		Escribir "Number "+ConvertirATexto(number) +" is even"
+	SiNo
+		Escribir "Number "+ConvertirATexto(number) +" is odd"
+	FinSi
+FinAlgoritmo
+```
+![image](https://user-images.githubusercontent.com/72572887/232377498-ba783a49-303b-42ac-9e7d-87861f493aba.png)
+
