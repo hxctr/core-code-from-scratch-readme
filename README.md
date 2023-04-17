@@ -173,3 +173,27 @@ FinAlgoritmo
 12. (T | F ) & (F | F) = T ->❌
 13. ~((T | F ) & (F | F)) & F = T ->✅
 14. ~((T | F ) & (F | F)) & T = F ->✅
+
+### 2. Boolean results
+```python
+Algoritmo boolean
+	// The following line assigns the result of the comparison 5 equals 3 to variable a
+	a <- 5 == 3 // a = False
+
+	// The following line assigns the result of the comparison 4 not equals 3 to variable b
+	b <- 4 <> 3 // b = True
+
+	// The following line assigns the result of the comparison 7 greater than 7 to variable c
+	c <- 7 > 7 // c = False
+
+	// The following line assigns the result of the comparison 4 less than 4 to variable d
+	d <- 4 < 4 // d = False
+
+	// The following line assigns the result of the comparison 100 less than or equal to 90 to variable e
+	e <- 100 <= 90 // e = False
+
+	// The following line assigns the result of the comparison 40 greater than or equal to 40 to variable f
+	f <- 40 >= 40 // f = True
+FinAlgoritmo
+
+```
