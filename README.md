@@ -199,7 +199,7 @@ FinAlgoritmo
 ```
 
 ### 3. Identify odd and even numbers
-```
+```python
 Algoritmo EvenOrOdd
 	Escribir "Write a number: "
 	Leer number
