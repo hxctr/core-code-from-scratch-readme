@@ -107,3 +107,6 @@ FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/72572887/232368852-cf29ffaa-b9f7-4987-bd1d-cca6f1342e44.png)
 
+### 1. Algorithm game
+![image](https://user-images.githubusercontent.com/72572887/232374332-e09831bb-5f00-4bc8-816c-f86e8bdb3aba.png)
+
