@@ -91,4 +91,6 @@ Therefore, only Bob is telling the truth and just one person studied math yester
 ## Week challenges (Wednesday)
 ### 1. Install PSeInt
 ![image](https://user-images.githubusercontent.com/72572887/232367553-518fc3d3-da33-4dde-bdc5-f856620b7844.png)
+### 2. Print my name
+![image](https://user-images.githubusercontent.com/72572887/232368009-356f5647-91a1-4c8d-891e-1f7411440321.png)
 
