@@ -155,3 +155,21 @@ FinAlgoritmo
 ```
 
 ![image](https://user-images.githubusercontent.com/72572887/232375626-ade81c7f-d976-466a-9118-b8f1cc88d34c.png)
+
+
+## Week challenges (Thursday)
+### 1. Truth tables
+1. T & T = T -> ✅
+2. T & F = F ->✅
+3. F & T = T ->❌
+4. F & F = F ->✅
+5. T | T = T ->✅
+6. T | F = F ->❌
+7. F | T = T ->✅
+8. F | F = F ->✅
+9. ~T = T ->❌
+10. ~F = T ->✅
+11. (T & F) | (~F) = T ->✅
+12. (T | F ) & (F | F) = T ->❌
+13. ~((T | F ) & (F | F)) & F = T ->✅
+14. ~((T | F ) & (F | F)) & T = F ->✅
