@@ -125,4 +125,33 @@ FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/72572887/232374809-51fe36cf-f1f2-44e1-a927-91d246e51d2f.png)
 
+### 3. Register form
+```python
+Algoritmo RegistrationForm
+    Escribir "What is your first name?"
+    Leer firstName
+	
+    Escribir "What is your last name?"
+    Leer lastName
+	
+    Escribir "How old are you?"
+    Leer age
+	
+    Escribir "What is your email address?"
+    Leer email
+	
+    Escribir "What is your address?"
+    Leer address
 
+    Escribir '--------------------------'
+    Escribir "First Name: " + firstName
+    Escribir "Last Name: " + lastName
+    Escribir "Age: " + age
+    Escribir "Email: " + email
+    Escribir "Address: " + address
+	Escribir '--------------------------'
+FinAlgoritmo
+
+```
+
+![image](https://user-images.githubusercontent.com/72572887/232375626-ade81c7f-d976-466a-9118-b8f1cc88d34c.png)
