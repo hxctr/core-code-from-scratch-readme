@@ -92,5 +92,18 @@ Therefore, only Bob is telling the truth and just one person studied math yester
 ### 1. Install PSeInt
 ![image](https://user-images.githubusercontent.com/72572887/232367553-518fc3d3-da33-4dde-bdc5-f856620b7844.png)
 ### 2. Print my name
+```python
+Algoritmo print_my_name
+	Escribir 'Printing my name: Héctor'
+FinAlgoritmo
+```
 ![image](https://user-images.githubusercontent.com/72572887/232368009-356f5647-91a1-4c8d-891e-1f7411440321.png)
+### 3. Print my name & age
+```python
+Algoritmo print_my_name
+	Escribir 'Printing my name: Héctor'
+	Escribir 'Age: 23'
+FinAlgoritmo
+```
+![image](https://user-images.githubusercontent.com/72572887/232368852-cf29ffaa-b9f7-4987-bd1d-cca6f1342e44.png)
 
