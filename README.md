@@ -67,3 +67,15 @@ Chest B -> All the chests have treasures -> true.<br>
 Chest C -> Just one of these chests has a treasure -> false.
 
 Answer: chest A and chest C have the treasure.
+
+# Pseudocode - Week 2
+## Week challenges (Monday)
+### 1. Logic problem
+1. If Alice is telling the truth, then nobody studied math.
+2. If bob is telling the truth, it means that just one person studied math yesterday.
+3. If Charlie is saying the truth, then exactly two people studied math yesterday.
+4. If Dan is telling the truth, then exactly three people studied math yesterday.
+5. If Eva is telling the truth, then exactly for people studied math yesterday.
+
+Therefore, only Bob is telling the truth and just one person studied math yesterday.
+
