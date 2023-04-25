@@ -443,3 +443,57 @@ Proceso mult_for
     
 FinProceso
 ```
+
+### 2. Ascending and Descending Numbers
+```python
+Algoritmo PrintNumbersAscDesc
+    Escribir "Ingrese un número:"
+    Leer numero
+    
+    Escribir "Orden ascendente (A) || Orden descendente (D)?"
+    Leer opcion
+    
+    Si opcion = "A" entonces
+        Para i desde 0 hasta numero hacer
+            Escribir i
+        FinPara
+    Sino Si opcion = "D" entonces
+        Para i desde numero hasta 0 hacer
+            Escribir i
+        FinPara
+    Sino
+        Escribir "La opción ingresada no es válida"
+    FinSi
+FinAlgoritmo
+```
+
+### 3. Greetings
+```python
+Algoritmo Greetings
+	Imprimir '======= Greetings ======='
+	Definir continuar Como Cadena
+	Definir cantidadSaludos Como Entero
+	cantidadSaludos <- 0
+	continuar <- 'Si'
+	Mientras continuar == 'Si' Hacer
+		Imprimir 'Ingrese la hora actual (0-23):'
+		Leer hora
+		Si hora <= 12 Entonces
+			Imprimir 'Buenas dias!'
+		SiNo
+			Si hora <= 18 Entonces
+				Imprimir 'Buenas tardes!'
+			SiNo
+				Imprimir 'Buenas noches!'
+			Fin Si
+		Fin Si
+
+		cantidadSaludos <- cantidadSaludos + 1
+
+		Imprimir 'Desea continuar ? Si/No'
+		Leer continuar
+	Fin Mientras
+
+	Imprimir 'Cantidad de Saludos realizados: ' + ConvertirATexto(cantidadSaludos)
+FinAlgoritmo
+```
