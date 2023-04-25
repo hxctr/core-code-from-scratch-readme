@@ -427,3 +427,19 @@ FinProceso
 
 ```
 
+## Week challenges (Thursday) 
+### 1. Multiplication Tables with For
+```python
+Proceso mult_for
+    Definir num, i, result Como Entero
+    
+    Escribir "Ingrese un número:"
+    Leer num
+    
+    Para i = 1 Hasta 10 Con Paso 1 Hacer
+        result = num * i
+        Escribir num, " x ", i, " = ", result
+    FinPara
+    
+FinProceso
+```
