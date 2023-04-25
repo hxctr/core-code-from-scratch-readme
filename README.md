@@ -212,3 +212,45 @@ FinAlgoritmo
 ```
 ![image](https://user-images.githubusercontent.com/72572887/232377498-ba783a49-303b-42ac-9e7d-87861f493aba.png)
 
+
+# Pseudocode - Week 3
+## Week challenges (Monday)
+### 1. Simple calculator
+```python
+Algoritmo calc
+
+Escribir "Ingrese el primer número:"
+Leer num1
+
+Escribir "Ingrese el segundo número:"
+Leer num2
+
+Escribir "Ingrese el signo de la operacion que desea realizar:"
+Leer operacion
+
+Si operacion = "+" Entonces
+    resultado = num1 + num2
+    operacion_texto = "sumar"
+Sino Si operacion = "-" Entonces
+    resultado = num1 - num2
+    operacion_texto = "restar"
+Sino Si operacion = "*" Entonces
+    resultado = num1 * num2
+    operacion_texto = "multiplicar"
+Sino Si operacion = "/" Entonces
+    Si num2 = 0 Entonces
+        Escribir "Division invalida"
+        FinAlgoritmo
+    FinSi
+    resultado = num1 / num2
+    operacion_texto = "dividir"
+Sino
+    Escribir "La operación ingresada no es válida"
+    FinAlgoritmo
+FinSi
+
+Escribir "Procesando: " + num1 + " " + operacion_texto + " " + num2
+Escribir "Resultado: " + resultado
+
+FinAlgoritmo
+```
