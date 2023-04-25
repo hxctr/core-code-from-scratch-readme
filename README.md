@@ -379,3 +379,51 @@ Proceso MultiplicationTables
 FinProceso
 
 ```
+
+### 2. Simple Calculator with Do While
+```python
+Proceso Calculadora_do_while
+	Definir opcion Como Caracter
+	Definir num1, num2, resultado Como Entero
+	Definir continuar Como Logico
+	continuar = Verdadero
+	
+	Repetir
+		Escribir "Ingrese el primer número: "
+		Leer num1
+		Escribir "Ingrese el segundo número: "
+		Leer num2
+		
+		Escribir "Seleccione una operación: "		
+		Leer opcion
+		
+		Segun opcion Hacer
+			"+" :
+				resultado = num1 + num2
+				Escribir "Resultado: ", resultado
+			"-" :
+				resultado = num1 - num2
+				Escribir "Resultado: ", resultado
+			"*" :
+				resultado = num1 * num2
+				Escribir "Resultado: ", resultado
+			"/" :
+				resultado = num1 / num2
+				Escribir "Resultado: ", resultado
+			De Otro Modo :
+				Escribir "Opción no válida"
+		FinSegun
+		
+		Escribir "¿Desea realizar otra operación? (s/n): "
+		Leer opcion
+		
+		Si opcion = "s" Entonces
+			continuar = Verdadero
+		Sino
+			continuar = Falso
+		FinSi
+	Hasta Que continuar = Falso
+FinProceso
+
+```
+
