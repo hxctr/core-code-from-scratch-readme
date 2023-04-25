@@ -270,3 +270,48 @@ Algoritmo specialNumber
 	FinSi
 FinAlgoritmo
 ```
+## Week challenges (Tuesday)
+### 1. Simple calculator with Switch 
+```python
+Proceso switch_app
+
+Definir num1, num2, resultado Como Real
+Definir operacion Como Caracter
+
+Escribir "Ingrese el primer número: "
+Leer num1
+
+Escribir "Ingrese el segundo número: "
+Leer num2
+
+Escribir "Ingrese la operación a realizar: "
+Leer operacion
+
+Segun operacion Hacer
+    "+":
+        resultado <- num1 + num2
+        Escribir "Procesando: ", num1, " + ", num2
+        Escribir "Resultado: ", resultado
+    "-":
+        resultado <- num1 - num2
+        Escribir "Procesando: ", num1, " - ", num2
+        Escribir "Resultado: ", resultado
+    "*":
+        resultado <- num1 * num2
+        Escribir "Procesando: ", num1, " * ", num2
+        Escribir "Resultado: ", resultado
+    "/":
+        Si num2 = 0 Entonces
+            Escribir "Error: División por cero"
+        Sino
+            resultado <- num1 / num2
+            Escribir "Procesando: ", num1, " / ", num2
+            Escribir "Resultado: ", resultado
+        FinSi
+    De Otro Modo:
+        Escribir " Error: Operación no válida"
+FinSegun
+
+FinProceso
+
+```
