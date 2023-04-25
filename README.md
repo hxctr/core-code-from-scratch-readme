@@ -315,3 +315,49 @@ FinSegun
 FinProceso
 
 ```
+
+### 2. Multi Option Program
+```python
+Proceso opc
+	Definir opcion Como Entero
+	Escribir "Seleccione una opción:"
+	Escribir "1. Sumar"
+	Escribir "2. Imprimir día de la semana según número"
+	Escribir "3. Calcular longitud de un texto"
+	Leer opcion
+
+	Segun opcion Hacer
+		1:
+			Definir num1, num2, resultado Como Entero
+			Escribir "Ingrese el primer número:"
+			Leer num1
+			Escribir "Ingrese el segundo número:"
+			Leer num2
+			resultado <- num1 + num2
+			Escribir "El resultado de la suma es:", resultado
+		2:
+			Definir dia Como Entero
+			Escribir "Ingrese el número del día de la semana:"
+			Leer dia
+			Segun dia Hacer
+				1: Escribir "Lunes"
+				2: Escribir "Martes"
+				3: Escribir "Miércoles"
+				4: Escribir "Jueves"
+				5: Escribir "Viernes"
+				6: Escribir "Sábado"
+				7: Escribir "Domingo"
+				Sino: Escribir "El número de día invalido"
+			FinSegun
+		3:
+			Definir texto Como Cadena
+			Escribir "Ingrese un texto:"
+			Leer texto
+			Escribir "La longitud del texto es:", Longitud(texto)
+		Sino:
+			Escribir "La opción ingresada no es válida"
+	FinSegun
+FinProceso
+
+
+```
