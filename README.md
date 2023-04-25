@@ -361,3 +361,21 @@ FinProceso
 
 
 ```
+
+## Week challenges (Wednesday)
+### 1. Multiplication Tables
+```python
+Proceso MultiplicationTables
+	Definir num, i Como Entero
+	
+	Escribir "Ingrese un número para imprimir su tabla de multiplicar: "
+	Leer num
+	
+	i = 1
+	Mientras i <= 10 Hacer
+		Escribir num, " x ", i, " = ", num*i
+		i = i + 1
+	Fin Mientras
+FinProceso
+
+```
