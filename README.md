@@ -497,3 +497,33 @@ Algoritmo Greetings
 	Imprimir 'Cantidad de Saludos realizados: ' + ConvertirATexto(cantidadSaludos)
 FinAlgoritmo
 ```
+# Pseudocode - Week 4
+## Week challenges (Monday)
+### 1. Average sales and commission
+```python
+Algoritmo Commission
+    Dim num_sales, i Como Entero
+    Dim sale, total_sales, avg_sale, commission Como Real
+    
+    Escribir "How many sales did the seller make?"
+    Leer num_sales
+    total_sales <- 0
+    
+    Para i <- 1 Hasta num_sales Con Paso 1 Hacer
+        Escribir "Enter the value of sale:"
+        Leer sale
+        total_sales <- total_sales + sale
+    FinPara
+    
+    avg_sale <- total_sales / num_sales
+    
+    Si num_sales > 5 Entonces
+        commission <- total_sales * 0.15
+    Sino
+        commission <- total_sales * 0.10
+    FinSi
+    
+    Escribir "The average value of each sale is $", avg_sale, "."
+    Escribir "The seller's commission is $", commission, "."
+FinAlgoritmo
+```
