@@ -527,3 +527,31 @@ Algoritmo Commission
     Escribir "The seller's commission is $", commission, "."
 FinAlgoritmo
 ```
+### 2. Even or odd
+```python
+Algoritmo MostrarNumerosParesImpares
+    Definir num, i como Entero
+    num <- 0
+    Mientras num < 1 o num > 50 hacer
+        Escribir "Ingrese un número entre 1 y 50:"
+        Leer num
+        Si num < 1 o num > 50 entonces
+            Escribir "Error: el número debe estar entre 1 y 50"
+        FinSi
+    FinMientras
+    
+    Escribir "Los números del 1 al", num, "son:"
+    Para i desde 1 hasta num hacer
+        Si num % 2 = 0 entonces
+            Si i % 2 = 0 entonces
+                Escribir i
+            FinSi
+        Sino
+            Si i % 2 <> 0 entonces
+                Escribir i
+            FinSi
+        FinSi
+    FinPara
+    
+FinAlgoritmo
+```
