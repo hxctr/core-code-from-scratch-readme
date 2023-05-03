@@ -595,3 +595,18 @@ Algoritmo CapitalizeName
     Escribir "Your capitalized name is:", Total_primer_nombre + " " +Total_primer_apellido
 FinAlgoritmo
 ```
+### 3. Throw dice
+```python
+Algoritmo RollDice
+    Para i = 1 Hasta 10 Hacer
+        dado1 = Aleatorio(1,6)
+        dado2 = Aleatorio(1,6)
+        
+        Si dado1 = dado2 Entonces
+			Imprimir  dado1," ", dado2 ," the dice are the same"
+		SiNo
+			Imprimir  dado1," ", dado2
+        FinSi  
+    FinPara
+FinAlgoritmo
+```
