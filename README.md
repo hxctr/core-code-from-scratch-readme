@@ -610,3 +610,22 @@ Algoritmo RollDice
     FinPara
 FinAlgoritmo
 ```
+## Week challenges (Wednesday)
+### 1. Distance to zero
+```python
+Algoritmo FurthestFromZero
+
+    max_valor = 0
+
+    Para i = 1 Hasta 5 Hacer
+        Escribir "Enter value ", i, ":"
+        Leer valor
+
+        Si Abs(valor) > Abs(max_valor) Entonces
+            max_valor = valor
+        FinSi
+    FinPara
+    Escribir "The furthest value from zero is:", trunc(max_valor)
+    
+FinAlgoritmo
+```
