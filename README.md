@@ -570,3 +570,28 @@ FinAlgoritmo
         - minusculas
         - subcadena
 ```
+
+### 2. Full Name
+```python
+Algoritmo CapitalizeName    
+    Escribir "Enter your first name:"
+    Leer nombre1
+    
+    Escribir "Enter your last name:"
+    Leer nombre2
+    
+	Definir  primer_caracter Como Caracter
+	primer_nombre = Mayusculas(subcadena(nombre1,0,1));
+	resto_primer_nombre = Minusculas(Subcadena(nombre1, 2, Longitud(nombre1)))
+	
+	Total_primer_nombre = primer_nombre + resto_primer_nombre
+	//--------------------------------------------------------------------------
+	primer_apellido = Mayusculas(subcadena(nombre2,0,1));
+	resto_primer_apellido = Minusculas(Subcadena(nombre2, 2, Longitud(nombre2)))
+	
+	Total_primer_apellido = primer_apellido + resto_primer_apellido
+	
+    nombre_completo = nombre1_capitalizado + " " + nombre2_capitalizado
+    Escribir "Your capitalized name is:", Total_primer_nombre + " " +Total_primer_apellido
+FinAlgoritmo
+```
