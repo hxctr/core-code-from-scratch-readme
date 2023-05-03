@@ -555,3 +555,18 @@ Algoritmo MostrarNumerosParesImpares
     
 FinAlgoritmo
 ```
+## Week challenges (Tuesday)
+### 1. Predefined functions
+```
+  - Predefined functions
+    - Maths
+        - abs
+        - trunc
+        - redon
+        - azar
+    - Chain
+        - longitud
+        - mayusculas
+        - minusculas
+        - subcadena
+```
