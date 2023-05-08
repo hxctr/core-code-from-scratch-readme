@@ -629,3 +629,45 @@ Algoritmo FurthestFromZero
     
 FinAlgoritmo
 ```
+### 2. Toss coin
+
+```python
+Algoritmo tossCoin
+    Escribir "Enter the name of the first player"
+    Leer player1
+    Escribir "Enter the amount to play"
+    Leer amount1
+    Escribir "Enter the name of the second player"
+    Leer player2
+    Escribir "Enter the amount to play"
+    Leer amount2
+    
+    Si amount1 <= 0 O amount2 <= 0 Entonces
+        Si amount1 <= 0 Y amount2 <= 0 Entonces
+            Escribir "Game canceled"
+        Sino
+            Si amount1 <= 0 Entonces
+                Escribir "Player wins: ", player2, " Amount won: 0"
+            Sino
+                Escribir "Player wins: ",player1, " Amount won: 0"
+            FinSi
+        FinSi
+    SiNo
+        Definir ganador como Cadena
+        Definir valorGanador como Entero
+		
+        Definir resultadoAleatorio como Entero
+        resultadoAleatorio = Aleatorio(1, 2)
+		
+        Si resultadoAleatorio = 1 Entonces
+            ganador = player1
+            valorGanador = amount2
+        SiNo
+            ganador = player2
+            valorGanador = amount1
+        FinSi
+		
+        Escribir "Player wins: ", ganador, " Amount won: ", valorGanador
+    FinSi
+FinAlgoritmo
+```
