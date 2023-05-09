@@ -671,3 +671,21 @@ Algoritmo tossCoin
     FinSi
 FinAlgoritmo
 ```
+
+## Week challenges (Thursday)
+### 2. Total price
+```python
+Funcion value <-TotalPrice (price, iva)
+	Definir value Como Real
+Si price < 3000 Entonces
+	value = ( price + (price/100*iva) )
+SiNo
+	value = ( price + (price/100*iva) ) / 100*90
+FinSi
+
+FinFuncion
+	
+Proceso Print
+	Imprimir TotalPrice(3589,15)
+FinProceso	
+```
