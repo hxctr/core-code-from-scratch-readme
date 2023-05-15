@@ -809,3 +809,12 @@ Algoritmo exampleWeatherAverage
 	Imprimir total / count;
 FinAlgoritmo
 ```
+## Week challenges (Thursday) 
+### 1. If
+```js
+if (vari == 1) {
+    console.log('var is number 1');
+}else{
+    console.log('var is not 1')
+}
+```
