@@ -728,3 +728,18 @@ Algoritmo exampleTimeConverter
 	Imprimir timeConverter(9000)
 FinAlgoritmo
 ```
+### 2. Mid point
+```python
+Funcion result <- midpoint (numero1, numero2)
+	Definir puntoMedio Como Real
+    result <- (numero1 + numero2) / 2
+FinFuncion
+
+Proceso hola
+	Definir numero1, numero2, resultado Como Real
+	numero1 <- 25
+	numero2 <- 10
+	resultado <- midpoint(numero1, numero2)
+	Escribir("Punto medio: " + ConvertirATexto(resultado))	
+FinProceso
+```
