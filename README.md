@@ -689,3 +689,23 @@ Proceso Print
 	Imprimir TotalPrice(3589,15)
 FinProceso	
 ```
+### 3. Reverse direction and size
+```python
+Funcion result <- ReverseDirectionAndSize (string)
+	Definir result Como Caracter;
+	result = "";
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		letter = Subcadena(string,count,count);
+		SI letter = Mayusculas(letter) Entonces
+			letter = Minusculas(letter)
+		SiNo
+			letter = Mayusculas(letter)
+		FinSi
+		result = Concatenar(result, letter)
+	FinPara
+Fin Funcion
+
+Algoritmo example_ReverseDirectionAndSize
+	Imprimir ReverseDirectionAndSize("Comida")
+FinAlgoritmo
+```
