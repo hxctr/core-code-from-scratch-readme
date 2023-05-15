@@ -825,3 +825,9 @@ while (vari < 10) {
     vari++;
 }
 ```
+### 3. For
+```js
+for (let i = 0; i < 10; i++) {
+    console.log(i)
+}
+```
