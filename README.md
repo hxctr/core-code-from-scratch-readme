@@ -709,3 +709,22 @@ Algoritmo example_ReverseDirectionAndSize
 	Imprimir ReverseDirectionAndSize("Comida")
 FinAlgoritmo
 ```
+# Pseudocode & Javascript - Week 5
+## Week challenges (Monday)
+### 1. Time Converter
+```python
+Funcion result <- timeConverter (number)
+	Definir result Como Caracter;
+	Definir days, hours, minutes, seconds Como Entero;
+	seconds = number % 60;
+	minutes = Trunc(number/60) % 60;
+	hours = Trunc(number/3600) % 24;
+	days = Trunc(number/86400);
+	
+	result = "days: "+ ConvertirATexto(days) + ", hours: "+ConvertirATexto(hours) + ", minutes: "+ ConvertirATexto(minutes) + ", seconds: "+ ConvertirATexto(minutes)+", seconds: "+ConvertirATexto(seconds);
+Fin Funcion
+
+Algoritmo exampleTimeConverter
+	Imprimir timeConverter(9000)
+FinAlgoritmo
+```
