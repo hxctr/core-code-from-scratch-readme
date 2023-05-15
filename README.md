@@ -818,3 +818,10 @@ if (vari == 1) {
     console.log('var is not 1')
 }
 ```
+### 2. While
+```js
+while (vari < 10) {
+    console.log(vari)
+    vari++;
+}
+```
