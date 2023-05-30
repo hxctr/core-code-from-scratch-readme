@@ -899,4 +899,10 @@ function reply(phrase) {
 let x = reply('How do you do?');
 //x has the value 'How do you do?'.
 ```
+### 6. 
+```js
+function echo(text){
+     return text;
+}
+```
 
