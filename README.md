@@ -842,3 +842,8 @@ let firstname = 'Lata';
 ```
 // The value will be: 'Geeta'
 ```
+### 4. Several variables
+```js
+let flower = 'rose';
+let tree = 'maple';
+```
