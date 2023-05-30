@@ -854,3 +854,13 @@ x = 'Tac';
 x = 'Toe';
 //x has the value 'Toe'.
 ```
+### 6. Assign variables
+```js
+let x = 'Laurel';
+let y = 'Hardy';
+let z = y;
+y = x;
+x = z;
+
+//x has the value 'Hardy'.
+```
