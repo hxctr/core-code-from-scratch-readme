@@ -882,4 +882,12 @@ function b(){
   return 'Hello b!';
 }
 ```
+### 4. Function calls
+```js
+function greet(){
+  return 'Haydo!';
+}
+
+let salutation = greet();
+```
 
