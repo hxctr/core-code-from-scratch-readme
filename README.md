@@ -831,3 +831,10 @@ for (let i = 0; i < 10; i++) {
     console.log(i)
 }
 ```
+
+# JavaScript - Week 6
+## Week challenges (Tuesday)
+### 2. Variables
+```js
+let firstname = 'Lata';
+```
