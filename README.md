@@ -899,10 +899,16 @@ function reply(phrase) {
 let x = reply('How do you do?');
 //x has the value 'How do you do?'.
 ```
-### 6. 
+### 6. Parameters
 ```js
 function echo(text){
      return text;
 }
 ```
-
+## Week challenges (Thursday)
+### 1. Strings
+```js
+function greet(text){
+    return `Hello ${text}!`
+}
+```
