@@ -919,3 +919,10 @@ function length(text){
      return text.length;
 }
 ```
+### 3. String: toUpperCase()
+
+```ja
+function toCase(text){
+     return text.toLowerCase()+'-'+text.toUpperCase();
+}
+```
