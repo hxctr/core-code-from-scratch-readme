@@ -890,4 +890,13 @@ function greet(){
 
 let salutation = greet();
 ```
+### 5. What is x? (function version)
+```js
+function reply(phrase) {
+  return phrase;
+}
+
+let x = reply('How do you do?');
+//x has the value 'How do you do?'.
+```
 
