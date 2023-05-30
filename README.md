@@ -926,3 +926,9 @@ function toCase(text){
      return text.toLowerCase()+'-'+text.toUpperCase();
 }
 ```
+### 4. String: charAt()
+```js
+function shortcut (text, text_2){
+     return text.charAt(0)+text_2.charAt(0)
+}
+```
