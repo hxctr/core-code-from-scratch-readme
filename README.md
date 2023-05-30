@@ -847,3 +847,10 @@ let firstname = 'Lata';
 let flower = 'rose';
 let tree = 'maple';
 ```
+### 5. Reassignment
+```js
+let x = 'Tic';
+x = 'Tac';
+x = 'Toe';
+//x has the value 'Toe'.
+```
