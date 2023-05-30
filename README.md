@@ -864,3 +864,10 @@ x = z;
 
 //x has the value 'Hardy'.
 ```
+## Week challenges (Wednesday)
+### 2. Functions
+```js
+function hello(){
+  return 'Hello world!';
+}
+```
