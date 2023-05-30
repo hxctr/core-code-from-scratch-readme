@@ -912,3 +912,10 @@ function greet(text){
     return `Hello ${text}!`
 }
 ```
+### 2. String: length
+
+```js
+function length(text){
+     return text.length;
+}
+```
