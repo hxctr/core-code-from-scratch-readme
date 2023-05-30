@@ -932,3 +932,9 @@ function shortcut (text, text_2){
      return text.charAt(0)+text_2.charAt(0)
 }
 ```
+### 5. String: indexOf()
+```js
+function indexOfIgnoreCase(text, text_2) {
+  return text.toLowerCase().indexOf(text_2.toLowerCase());
+}
+```
