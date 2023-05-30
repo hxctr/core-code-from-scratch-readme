@@ -838,3 +838,7 @@ for (let i = 0; i < 10; i++) {
 ```js
 let firstname = 'Lata';
 ```
+### 3. What is x?
+```
+// The value will be: 'Geeta'
+```
