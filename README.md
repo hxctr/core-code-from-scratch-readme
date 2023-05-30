@@ -871,3 +871,15 @@ function hello(){
   return 'Hello world!';
 }
 ```
+### 3. Multiple functions
+
+```js
+function a(){
+  return 'Hello a!';
+}
+
+function b(){
+  return 'Hello b!';
+}
+```
+
